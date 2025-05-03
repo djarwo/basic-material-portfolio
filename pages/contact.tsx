@@ -9,6 +9,7 @@ import {
   IoLogoLinkedin,
   IoLogoTwitter,
   IoPaperPlane,
+  IoLogoMedium,
   IoPaperPlaneOutline,
 } from 'react-icons/io5';
 
@@ -28,7 +29,7 @@ export default function contact() {
             <h3 className="text-sm md:text-md">
               Don't like forms? Send me an{' '}
               <a
-                href="mailto:user@domain.com"
+                href="mailto:djarwoprasojo@gmail.com"
                 className="text-blue-600 hover:underline"
               >
                 email
@@ -37,35 +38,29 @@ export default function contact() {
             </h3>
             <h4>
               <span className="text-sm md:text-md font-semibold">Email : </span>
-              user@domain.com
+              djarwoprasojo@gmail.com
             </h4>
             <h4>
               <span className="text-sm md:text-md font-semibold">
                 Mobile :{' '}
               </span>{' '}
-              (+91) 99123-41234
+              (+62) 81807 877 877
             </h4>
             <div className="mt-2">
-              <div className="text-black text-xl flex gap-5">
-                <Link href="https://twitter.com/">
-                  <IoLogoTwitter className="hover:text-pink-600" />
-                </Link>
-                <Link href="https://linkedin.com/">
-                  <IoLogoLinkedin className="hover:text-pink-600" />
-                </Link>
-                <Link href="https://github.com/">
-                  <IoLogoGithub className="hover:text-pink-600" />
-                </Link>
-                <Link href="https://facebook.com/">
-                  <IoLogoFacebook className="hover:text-pink-600" />
-                </Link>
-                <Link href="https://instagram.com/">
-                  <IoLogoInstagram className="hover:text-pink-600" />
-                </Link>
-                <Link href="https://telegram.me/">
-                  <IoPaperPlane className="hover:text-pink-600" />
-                </Link>
-              </div>
+            <div className="text-white text-xl flex gap-5 dark:text-white">
+              <Link href="https://www.linkedin.com/in/djarwo-prasojo/">
+                <IoLogoLinkedin className="hover:text-blue-300" />
+              </Link>
+              <Link href="https://github.com/djarwo">
+                <IoLogoGithub className="hover:text-blue-300" />
+              </Link>
+              <Link href="https://t.me/djarwoprasojo">
+                <IoPaperPlane className="hover:text-blue-300" />
+              </Link>
+              <Link href="https://medium.com/@djarwoprasojo">
+                <IoLogoMedium className="hover:text-blue-300" />
+              </Link>
+            </div>
             </div>
           </div>
         </div>
@@ -78,7 +73,7 @@ export default function contact() {
                 <input
                   type="text"
                   className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-                  placeholder="Joey Tribbiani"
+                  placeholder="Djarwo Prasojo"
                   name="Name"
                   id="Name"
                 />
@@ -88,7 +83,7 @@ export default function contact() {
                 <input
                   type="email"
                   className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-                  placeholder="user@domain.com"
+                  placeholder="djarwoprasojo@gmail.com  "
                   name="Email"
                   id="Email"
                 />
@@ -109,7 +104,7 @@ export default function contact() {
                 <textarea
                   className="form-textarea mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
                   rows={4}
-                  placeholder="Great to know about you User."
+                  placeholder="Ask me anything."
                   name="Messege"
                   id="Messege"
                 ></textarea>

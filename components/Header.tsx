@@ -16,6 +16,7 @@ import {
   IoBriefcaseOutline,
   IoLogoTwitter,
   IoLogoLinkedin,
+  IoLogoMedium,
   IoLogoGithub,
   IoLogoFacebook,
   IoLogoInstagram,
@@ -109,11 +110,11 @@ export default function Header() {
                       </Menu.Item>
                       <Menu.Item>
                         <a
-                          href="/awards-certification"
+                          href="/certification"
                           className="bg-violet-500 text-gray-900 group flex rounded-md items-center w-full px-2 py-2 text-sm"
                         >
                           <IoRibbonOutline className="w-5 h-5 mr-2" />
-                          Awards & Certifications
+                          Certifications
                         </a>
                       </Menu.Item>
                       <Menu.Item>
@@ -136,10 +137,10 @@ export default function Header() {
                       </Menu.Item>
                       <Menu.Item>
                         <a
-                          href="https://dntandan.ml"
+                          href="https://github.com/djarwo"
                           className="text-center border-t bg-violet-500 text-gray-900 group flex rounded-md items-center w-full px-2 py-3 mt-1 text-sm"
                         >
-                          Made with 💙 by @dntandan
+                          Made with 💙 by @djarwoprasojo
                         </a>
                       </Menu.Item>
                     </div>
@@ -151,7 +152,7 @@ export default function Header() {
           <Link href="/">
             <div className="flex gap-2 items-center">
               <IoCode className="text-2xl" />
-              <h3 className="text-lg font-bold">johndoe</h3>
+              <h3 className="text-lg font-bold">djarwoprasojo</h3>
             </div>
           </Link>
           <div className="pt-2">
@@ -169,35 +170,38 @@ export default function Header() {
         <div className="flex flex-row justify-between px-8 py-4 text-white dark:text-white">
           <div>
             <p>
-              Made with 💙 by <Link href="https://dntandan.ml">@dntandan</Link>
+              Made with 💙 by <Link href="https://github.com/djarwo">@djarwo</Link>
             </p>
           </div>
           <Link href="/">
             <div className="flex gap-2 items-center">
               <IoCode className="text-2xl" />
-              <h3 className="text-lg font-bold">johndoe</h3>
+              <h3 className="text-lg font-bold">djarwoprasojo</h3>
             </div>
           </Link>
 
           <div className="pt-1">
             <div className="text-white text-xl flex gap-5 dark:text-white">
-              <Link href="https://twitter.com/">
+              {/* <Link href="https://twitter.com/">
                 <IoLogoTwitter className="hover:text-blue-300" />
-              </Link>
-              <Link href="https://linkedin.com/">
+              </Link> */}
+              <Link href="https://www.linkedin.com/in/djarwo-prasojo/">
                 <IoLogoLinkedin className="hover:text-blue-300" />
               </Link>
-              <Link href="https://github.com/">
+              <Link href="https://github.com/djarwo">
                 <IoLogoGithub className="hover:text-blue-300" />
               </Link>
-              <Link href="https://facebook.com/">
+              {/* <Link href="https://facebook.com/">
                 <IoLogoFacebook className="hover:text-blue-300" />
-              </Link>
-              <Link href="https://instagram.com/">
+              </Link> */}
+              {/* <Link href="https://instagram.com/">
                 <IoLogoInstagram className="hover:text-blue-300" />
-              </Link>
-              <Link href="https://telegram.me/">
+              </Link> */}
+              <Link href="https://t.me/djarwoprasojo">
                 <IoPaperPlane className="hover:text-blue-300" />
+              </Link>
+              <Link href="https://medium.com/@djarwoprasojo">
+                <IoLogoMedium className="hover:text-blue-300" />
               </Link>
             </div>
           </div>
@@ -263,19 +267,19 @@ export default function Header() {
               <h1 className="ml-2">Projects</h1>
             </div>
           </Link>
-          <Link href="/awards-certification">
+          <Link href="/certification">
             <div
               className={
-                router.pathname == '/awards-certification'
+                router.pathname == '/certification'
                   ? 'p-2 w-auto flex border-b border-red-500 items-center'
                   : 'p-2 w-auto flex border-b border-transparent  hover:border-gray-400 items-center'
               }
             >
               <IoRibbonOutline />
-              <h1 className="ml-2">Awards & Certification</h1>
+              <h1 className="ml-2">Certification</h1>
             </div>
           </Link>
-          <Link href="/blogs">
+          {/* <Link href="/blogs">
             <div
               className={
                 router.pathname == '/blogs'
@@ -286,7 +290,7 @@ export default function Header() {
               <IoChatboxEllipsesOutline />
               <h1 className="ml-2">Blogs</h1>
             </div>
-          </Link>
+          </Link> */}
           <Link href="/contact">
             <div
               className={

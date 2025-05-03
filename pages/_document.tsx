@@ -22,7 +22,7 @@ export default class MyDocument extends Document {
 
           {/* <!-- Open Graph / Facebook --> */}
           <meta property="og:type" key="ogtype" content="website" />
-          <meta property="og:url" key="ogurl" content="https://gitwind.ml/" />
+          <meta property="og:url" key="ogurl" content="/" />
           <meta property="og:title" key="ogtitle" content="GitWind Portfolio" />
           <meta
             property="og:description"
@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
           <meta
             property="og:image"
             key="ogimage"
-            content="https://gitwind.ml/assets/img/gitwind-banner.jpg"
+            content="/assets/img/git-banner.png"
           />
 
           {/* <!-- Twitter --> */}
@@ -44,7 +44,7 @@ export default class MyDocument extends Document {
           <meta
             property="twitter:url"
             key="twitterurl"
-            content="https://gitwind.ml/"
+            content="/"
           />
           <meta
             property="twitter:title"
@@ -59,7 +59,7 @@ export default class MyDocument extends Document {
           <meta
             property="twitter:image"
             key="twitterimage"
-            content="https://gitwind.ml/assets/img/gitwind-banner.jpg"
+            content="/assets/img/git-banner.png"
           />
 
           {/* Global Site Tag (gtag.js) - Google Analytics */}

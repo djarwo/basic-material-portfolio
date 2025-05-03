@@ -12,22 +12,19 @@ export default function About() {
       <h1 className="text-lg font-semibold my-2">About Me</h1>
       <div className="flex flex-col mb-4 text-lg tracking-wide gap-y-4 px-4">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur
-          impedit obcaecati maxime ad reprehenderit facilis eligendi laborum
-          unde nisi optio earum, esse nam! Sed aspernatur placeat repudiandae
-          quam necessitatibus.
+          I'm a tech enthusiast with 12 years of diverse industry experience 
+          and a strong background of 7 years of experience in software engineering
+          as a back-end developer, mobile developer, front-end developer, and 
+          full-stack developer. 
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
-          quidem minus sapiente laboriosam voluptatum ea maiores! Laboriosam
-          molestias temporibus, veritatis iure nesciunt officiis culpa beatae,
-          odit perferendis, facilis quo. Consequatur. Aliquid nulla nobis
-          labore! Esse ab id quam, architecto cumque, ipsa omnis nobis quod
-          voluptates ipsum obcaecati necessitatibus deserunt facere
-          exercitationem inventore porro laudantium. Repudiandae quod corporis
-          laudantium modi adipisci?
+          Now I'm transitioning my expertise to specialize in AI development, 
+          leveraging detailed knowledge and honed skills to drive innovation 
+          and create advanced, impactful solutions for organizations. 
+          I'm eager to contribute to forward-thinking teams and contribute 
+          to the advancement of AI-driven initiatives.
         </p>
-        <p>
+        {/* <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit vitae
           quas, a laborum consequatur deserunt laudantium assumenda,
           dignissimos, corporis dolores repudiandae recusandae. Voluptatem
@@ -38,7 +35,7 @@ export default function About() {
           dolorem fuga nemo ducimus quas unde fugit deleniti nulla, ad numquam
           iusto. Aspernatur odio perferendis quisquam accusamus, obcaecati omnis
           fuga adipisci!
-        </p>
+        </p> */}
       </div>
     </>
   );

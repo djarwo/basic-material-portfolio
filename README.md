@@ -17,7 +17,7 @@ A Github themed portfolio template using TailwindCSS
   
 </p>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/dntandan/gitwind-portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/)
 
 ## Features
 
@@ -30,12 +30,12 @@ A Github themed portfolio template using TailwindCSS
 ## Demo
 
 - [Demo Site](https://djarwoprasojo.com) - This demo
-- [My Personal Demo](https://dntandan.ml)- Production website of my portfolio & Blog
+- [My Personal Demo](https://github.com/djarwo)- Production website of my portfolio & Blog
 
 
 ## Installation
 
-Install gitwind-portfolio with yarn
+Install git-portfolio with yarn
 
 ```bash
   yarn install
