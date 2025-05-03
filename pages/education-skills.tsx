@@ -102,7 +102,7 @@ export default function education() {
             <h3 className="text-lg font-semibold ">Others </h3>
           </div>
           <div className="flex flex-wrap gap-3 my-3 text-sm md:ml-8">
-            <Pills text="Data Enginner*" cname="bg-blue-100 py-1 " />
+            <Pills text="Data Engineer*" cname="bg-blue-100 py-1 " />
             <Pills text="Machine Learning*" cname="bg-red-100 py-1 " />
             <Pills text="LLM & Generic AI*" cname="bg-pink-100 py-1 " />
             <Pills text="Power BI" cname="bg-gray-100 py-1 " />

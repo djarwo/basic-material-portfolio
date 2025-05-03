@@ -19,15 +19,15 @@ import WhatDoing from '@/components/WhatDoing';
 
 export default function Index() {
   const hobbyData = {
-    bb: {
-      title: 'Badminton',
+    sp: {
+      title: 'Sports',
       desc:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione dolorem fuga nemo ducimus quas unde fugit deleniti nulla, fuga adipisci!',
+        `And also If I'm bored in my free time, I usually play badminton.`,
     },
     pbs: {
       title: 'Learning',
       desc:
-        'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione dolorem fuga nemo ducimus quas unde fugit deleniti nulla, fuga adipisci!',
+        'Learn and Research is my daily routine in my free time, right now I am currently building a portfolio by writing, documenting, and studying to develop a portfolio.',
     }
 
   };
@@ -45,12 +45,25 @@ export default function Index() {
     dat: {
       title: 'Data Engineer',
       desc:
-        "I'm open to freelance projects and collaboration opportunities. I enjoy working with others to bring ideas to life and solve real-world problems",
+        `I apply data analysis and machine learning to solve business problems and uncover insights from complex datasets. My work spans from exploratory data analysis to predictive modeling and data visualization.
+        Key areas I'm working on:
+
+        - Data preprocessing and cleaning using Pandas and NumPy
+        - Exploratory data analysis (EDA) and visualization using Matplotlib, Seaborn, or Plotly
+        - Training and evaluating machine learning models with scikit-learn, XGBoost, or TensorFlow
+        - Deploying models as APIs using Flask or FastAPI
+        - Communicating insights with dashboards or reports
+`,
     },
     devop: {
       title: 'Devops',
       desc:
-        `I work on automating infrastructure, CI/CD pipelines, and ensuring scalable, reliable deployments. Additionally, I share insights and experiments related to artificial intelligence, especially where it intersects with backend and data systems.`,
+        `I’m currently working on building reliable, scalable infrastructure with a strong focus on automation, deployment, and monitoring. 
+        My DevOps work includes managing CI/CD pipelines, container orchestration using Docker and Kubernetes, infrastructure as code (IaC) 
+        and optimizing system performance in both staging and production environments.
+        
+        I'm passionate about streamlining development workflows and improving collaboration between development and operations teams. 
+        I’m also exploring cloud platforms like AWS and GCP to scale services efficiently.`,
     },
   };
   return (
@@ -81,7 +94,7 @@ export default function Index() {
           <Hobbies title={hobbyData.pbs.title} desc={hobbyData.pbs.desc}>
             <IoSettingsSharp className="text-yellow-500 text-6xl" />
           </Hobbies>
-          <Hobbies title={hobbyData.bb.title} desc={hobbyData.bb.desc}>
+          <Hobbies title={hobbyData.sp.title} desc={hobbyData.sp.desc}>
             <GiShuttlecock className="text-red-500 text-6xl" />
           </Hobbies>
         </div>

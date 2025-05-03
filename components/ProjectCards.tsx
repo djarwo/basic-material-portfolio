@@ -54,7 +54,17 @@ export default function ProjectCards(props) {
         </div>
         <div className="lg:ml-7">
           <p className="lg:text-lg">{props.subTitle}</p>
-          <p className="mb-2 py-2">{props.desc}</p>
+          <p className="mb-2 py-2">
+            {props.desc
+              .replace(/<br\s*\/?>/gi, '\n') // convert <br> tags to \n
+              .split('\n')
+              .map((line, index) => (
+                <React.Fragment key={index}>
+                  {line}
+                  <br />
+                </React.Fragment>
+              ))}
+          </p>
           <div className="flex justify-start gap-2 flex-wrap">
             {allStacksDisplay}
           </div>

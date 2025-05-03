@@ -20,10 +20,10 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/experience": [
+    "/certification": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/experience.js"
+      "static/chunks/pages/certification.js"
     ],
     "/projects": [
       "static/chunks/webpack.js",
