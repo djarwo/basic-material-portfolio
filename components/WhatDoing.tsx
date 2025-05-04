@@ -6,7 +6,7 @@ export default function WhatDoing(props) {
       <div className="h-auto px-4 py-6 gap-2 flex flex-col items-center rounded-lg border-2 border-dashed">
         {props.children}
         <h3 className="lg:text-lg font-semibold">{props.title} </h3>
-        <p className="text-center" style={{ whiteSpace: 'pre-wrap' }}>
+        <p className="text-left" style={{ whiteSpace: 'pre-wrap' }}>
           {props.desc
             .replace(/<br\s*\/?>/gi, '\n') // convert <br> tags to \n
             .split('\n')
