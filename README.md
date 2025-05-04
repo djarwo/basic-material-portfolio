@@ -1,12 +1,12 @@
 <p align="center">
   <br>
   <a href="https://getresources.ml">
-    <img src="public/gitwind-logo.png" width="300"/>
+    <img src="public/djarwoprasojo-logo.png" width="300"/>
   </a>
 </p>
 
 <div align="center">
-<h1 style="margin-bottom:-10px;">GitWind Portfolio</h1>
+<h1 style="margin-bottom:-10px;">Djarwo Prasojo Portfolio</h1>
 A Github themed portfolio template using TailwindCSS
 <br>
 </div>
@@ -52,7 +52,7 @@ Clone the project
 Go to the project directory
 
 ```bash
-  cd gitwind-portfolio
+  cd djarwoprasojo-portfolio
 ```
 
 Install dependencies

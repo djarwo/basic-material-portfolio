@@ -43,7 +43,7 @@ export default function education() {
   return (
     <>
       <Head>
-        <title>Education & Skills :: GitWind</title>
+        <title>Education & Skills :: Djarwo Prasojo | Software Engineer Portfolio</title>
       </Head>
       <Layout border="border-2">
         <h3 className="text-lg font-semibold mt-3">Educational Background</h3>

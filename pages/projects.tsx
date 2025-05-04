@@ -193,7 +193,7 @@ export default function projects() {
   return (
     <>
       <Head>
-        <title>Projects :: GitWind</title>
+        <title>Projects :: Djarwo Prasojo | Software Engineer Portfolio</title>
       </Head>
       <Layout border="border-2">
         <h3 className="text-lg font-semibold my-4">

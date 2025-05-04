@@ -17,7 +17,7 @@ export default function contact() {
   return (
     <>
       <Head>
-        <title>Contact :: GitWind</title>
+        <title>Contact :: Djarwo Prasojo | Software Engineer Portfolio</title>
       </Head>
       <Layout border="border-2">
         <h3 className="text-lg font-semibold mt-4">Contact Details</h3>

@@ -63,7 +63,7 @@ export default function awardsAndCertification() {
   return (
     <>
       <Head>
-        <title>Certification :: GitWind</title>
+        <title>Certification :: Djarwo Prasojo | Software Engineer Portfolio</title>
       </Head>
       <Layout border="border-2">
         {/* <h3 className="text-lg font-semibold mt-3">Awards</h3>

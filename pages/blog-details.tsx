@@ -5,7 +5,7 @@ export default function BlogDetails() {
   return (
     <>
       <Head>
-        <title>Blog Details :: GitWind</title>
+        <title>Blog Details :: Djarwo Prasojo | Software Engineer Portfolio</title>
       </Head>
       <Layout border="border-2">
         <div className="items-center px-2 lg:px-6 prose lg:prose-lg mx-auto py-4 dark:prose-dark">

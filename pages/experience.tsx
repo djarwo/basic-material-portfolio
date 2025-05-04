@@ -84,7 +84,7 @@ export default function skillsAndExperience() {
   return (
     <>
       <Head>
-        <title>Expereience :: GitWind</title>
+        <title>Expereience :: Djarwo Prasojo | Software Engineer Portfolio</title>
       </Head>
       <Layout border="border-2">
         {/* <h3 className="text-lg font-semibold mt-3">Internships</h3>

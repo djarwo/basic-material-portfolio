@@ -69,7 +69,7 @@ export default function Index() {
   return (
     <>
       <Head>
-        <title>Home :: Djarwo Prasojo</title>
+        <title>Home :: Djarwo Prasojo | Software Engineer Portfolio</title>
       </Head>
       <Layout border="border-2">
         <About />
