@@ -3,7 +3,7 @@ import Layout from '@/components/Layout';
 import ProjectCards from '@/components/ProjectCards';
 import Head from 'next/head';
 
-export default function projects() {
+export default function projectsdetail() {
   const projectData = {
     project1: {
       title: 'Dyanamic Data Extractor',
@@ -11,13 +11,13 @@ export default function projects() {
       desc:
         `
         Role: Software Enginner | Project Manager | Documentation | Maintenance
-        Introduction: In this part there are 3 projects with the same mechanism but different processes and outputs
-        Story:`,
+        Introduction: In this part there are 3 projects with the same mechanism but different processes and outputs`,
+      story:`Story: `,
       link: '#',
       linkText: '#',
       stacks: [
-        { title: 'Git', color: 'text-red-200' },
-        { title: '.Net', color: 'text-blue-200' },
+        { title: '.Net', color: 'text-red-200' },
+        { title: '.Git', color: 'text-blue-200' },
         { title: 'SQL Server', color: 'text-gray-200' },
         { title: 'Tailwind', color: 'text-yellow-200' },
         { title: 'Azure', color: 'text-green-200' },
@@ -29,8 +29,8 @@ export default function projects() {
       desc:
         `
         Role: Software Enginner | Technical Lead | Project Manager | Documentation | Presenting | Training
-        Introduction: 
-        Story:`,
+        Introduction: `,
+      story:`Story: `,
       link: '#',
       linkText: '#',
       stacks: [
@@ -47,8 +47,8 @@ export default function projects() {
       desc:
         `
         Role: Software Engineer | Technical Lead | Project Manager | Documentation | Presenting | Training | Maintenance
-        Introduction: In this part there are 3 projects with the same mechanism
-        Story:`,
+        Introduction: In this part there are 3 projects with the same mechanism`,
+      story:`Story: `,
       link: '#',
       linkText: '#',
       stacks: [
@@ -67,8 +67,8 @@ export default function projects() {
       desc:
         `
         Role: Software Engineer | Technical Lead | Project Manager | Documentation | Maintenance
-        Introduction: 
-        Story:`,
+        Introduction: `,
+      story:`Story: `,
       link: '#',
       linkText: '#',
       stacks: [
@@ -86,8 +86,8 @@ export default function projects() {
       desc:
         `
         Role: Software Engineer | Technical Lead | Project Manager | Documentation | Maintenance
-        Introduction: 
-        Story:`,
+        Introduction: `,
+      story:`Story: `,
       link: '#',
       linkText: '#',
       stacks: [
@@ -101,13 +101,13 @@ export default function projects() {
       desc:
         `
         Role: Software Engineer | Technical Lead | Project Manager | Documentation | Presenting | Maintenance
-        Introduction: 
-        Story:`,
+        Introduction: `,
+      story:`Story: `,
       link: '#',
       linkText: '#',
       stacks: [
-        { title: 'Git', color: 'text-red-200' },
-        { title: '.Net', color: 'text-blue-200' },
+        { title: '.Net', color: 'text-red-200' },
+        { title: 'Git', color: 'text-blue-200' },
         { title: 'SQL Server', color: 'text-gray-200' },
         { title: 'Tailwind', color: 'text-yellow-200' },
         { title: 'Azure', color: 'text-green-200' },
@@ -119,16 +119,16 @@ export default function projects() {
       desc:
         `
         Role: Software Engineer | Documentation | Presenting | Maintenance
-        Introduction: 
-        Story:`,
+        Introduction: `,
+      story:`Story: `,
       link: '#',
       linkText: '#',
       stacks: [
-        { title: 'Django', color: 'text-red-200' },
+        { title: 'Golang', color: 'text-red-200' },
         { title: 'Git', color: 'text-blue-200' },
-        { title: 'PostgreSQL', color: 'text-gray-200' },
-        { title: 'DRF', color: 'text-yellow-200' },
-        { title: 'Digital Ocean', color: 'text-green-200' },
+        { title: 'Docker', color: 'text-gray-200' },
+        { title: 'MySQL', color: 'text-yellow-200' },
+        { title: 'Laravel & Tailwind', color: 'text-gray-200' },
       ],
     },
     project8: {
@@ -137,16 +137,17 @@ export default function projects() {
       desc:
         `
         Role: Software Engineer | Project Manager | Documentation | Presenting | Maintenance
-        Introduction: 
-        Story:`,
+        Introduction: `,
+      story:`Story: `,
       link: '#',
       linkText: '#',
       stacks: [
-        { title: 'Django', color: 'text-red-200' },
+        { title: 'Golang', color: 'text-red-200' },
         { title: 'Git', color: 'text-blue-200' },
-        { title: 'PostgreSQL', color: 'text-gray-200' },
-        { title: 'DRF', color: 'text-yellow-200' },
-        { title: 'Digital Ocean', color: 'text-green-200' },
+        { title: 'Docker', color: 'text-gray-200' },
+        { title: 'MySQL', color: 'text-yellow-200' },
+        { title: 'Laravel & Tailwind', color: 'text-gray-200' },
+        { title: 'Flutter', color: 'text-green-200' },
       ],
     },
     project9: {
@@ -155,16 +156,17 @@ export default function projects() {
       desc:
         `
         Role: Software Engineer | Project Manager | Documentation | Presenting | Maintenance
-        Introduction: 
-        Story:`,
+        Introduction: `,
+      story:`Story: `,
       link: '#',
       linkText: '#',
       stacks: [
-        { title: 'Django', color: 'text-red-200' },
+        { title: 'Golang', color: 'text-red-200' },
         { title: 'Git', color: 'text-blue-200' },
-        { title: 'PostgreSQL', color: 'text-gray-200' },
-        { title: 'DRF', color: 'text-yellow-200' },
-        { title: 'Digital Ocean', color: 'text-green-200' },
+        { title: 'Docker', color: 'text-gray-200' },
+        { title: 'MySQL', color: 'text-yellow-200' },
+        { title: 'Laravel & Tailwind', color: 'text-gray-200' },
+        { title: 'Flutter', color: 'text-green-200' },
       ],
     },
     project10: {
@@ -173,16 +175,17 @@ export default function projects() {
       desc:
         `
         Role: Software Engineer | Documentation | Maintenance
-        Introduction: 
-        Story:`,
+        Introduction: `,
+      story:`Story: `,
       link: '#',
       linkText: '#',
       stacks: [
-        { title: 'Django', color: 'text-red-200' },
+        { title: 'Golang', color: 'text-red-200' },
         { title: 'Git', color: 'text-blue-200' },
-        { title: 'PostgreSQL', color: 'text-gray-200' },
-        { title: 'DRF', color: 'text-yellow-200' },
-        { title: 'Digital Ocean', color: 'text-green-200' },
+        { title: 'Docker', color: 'text-gray-200' },
+        { title: 'MySQL', color: 'text-yellow-200' },
+        { title: 'Laravel & Tailwind', color: 'text-gray-200' },
+        { title: 'Flutter', color: 'text-green-200' },
       ],
     },
   };
@@ -204,6 +207,7 @@ export default function projects() {
             link={projectData.project1.link}
             linkText={projectData.project1.linkText}
             stacks={projectData.project1.stacks}
+            story={projectData.project1.story}
           />
           <ProjectCards
             title={projectData.project2.title}
@@ -212,6 +216,7 @@ export default function projects() {
             link={projectData.project2.link}
             linkText={projectData.project2.linkText}
             stacks={projectData.project2.stacks}
+            story={projectData.project2.story}
           />
           <ProjectCards
             title={projectData.project3.title}
@@ -220,6 +225,7 @@ export default function projects() {
             link={projectData.project3.link}
             linkText={projectData.project3.linkText}
             stacks={projectData.project3.stacks}
+            story={projectData.project3.story}
           />
           <ProjectCards
             title={projectData.project4.title}
@@ -228,6 +234,7 @@ export default function projects() {
             link={projectData.project4.link}
             linkText={projectData.project4.linkText}
             stacks={projectData.project4.stacks}
+            story={projectData.project4.story}
           />
           <ProjectCards
             title={projectData.project5.title}
@@ -236,6 +243,7 @@ export default function projects() {
             link={projectData.project5.link}
             linkText={projectData.project5.linkText}
             stacks={projectData.project5.stacks}
+            story={projectData.project5.story}
           />
           <ProjectCards
             title={projectData.project6.title}
@@ -244,6 +252,7 @@ export default function projects() {
             link={projectData.project6.link}
             linkText={projectData.project6.linkText}
             stacks={projectData.project6.stacks}
+            story={projectData.project6.story}
           />
           <ProjectCards
             title={projectData.project7.title}
@@ -252,6 +261,7 @@ export default function projects() {
             link={projectData.project7.link}
             linkText={projectData.project7.linkText}
             stacks={projectData.project7.stacks}
+            story={projectData.project7.story}
           />
           <ProjectCards
             title={projectData.project8.title}
@@ -260,6 +270,7 @@ export default function projects() {
             link={projectData.project8.link}
             linkText={projectData.project8.linkText}
             stacks={projectData.project8.stacks}
+            story={projectData.project8.story}
           />
           <ProjectCards
             title={projectData.project9.title}
@@ -268,6 +279,7 @@ export default function projects() {
             link={projectData.project9.link}
             linkText={projectData.project9.linkText}
             stacks={projectData.project9.stacks}
+            story={projectData.project9.story}
           />
           <ProjectCards
             title={projectData.project10.title}
@@ -276,6 +288,7 @@ export default function projects() {
             link={projectData.project10.link}
             linkText={projectData.project10.linkText}
             stacks={projectData.project10.stacks}
+            story={projectData.project10.story}
           />
         </div>
       </Layout>
