@@ -258,7 +258,7 @@ export default function Header() {
           <Link href="/projects">
             <div
               className={
-                router.pathname == '/projects'
+                router.pathname == '/projects' || router.pathname == '/projects-detail'
                   ? 'p-2 w-auto flex border-b border-red-500 items-center'
                   : 'p-2 w-auto flex border-b border-transparent  hover:border-gray-400 items-center'
               }
@@ -267,7 +267,7 @@ export default function Header() {
               <h1 className="ml-2">Projects</h1>
             </div>
           </Link>
-          <Link href="/certification">
+          {/* <Link href="/certification">
             <div
               className={
                 router.pathname == '/certification'
@@ -278,7 +278,7 @@ export default function Header() {
               <IoRibbonOutline />
               <h1 className="ml-2">Certification</h1>
             </div>
-          </Link>
+          </Link> */}
           {/* <Link href="/blogs">
             <div
               className={

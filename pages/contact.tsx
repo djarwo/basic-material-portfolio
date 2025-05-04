@@ -40,12 +40,6 @@ export default function contact() {
               <span className="text-sm md:text-md font-semibold">Email : </span>
               djarwoprasojo@gmail.com
             </h4>
-            <h4>
-              <span className="text-sm md:text-md font-semibold">
-                Mobile :{' '}
-              </span>{' '}
-              (+62) 81807 877 877
-            </h4>
             <div className="mt-2">
             <div className="text-white text-xl flex gap-5 dark:text-white">
               <Link href="https://www.linkedin.com/in/djarwo-prasojo/">

@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '@/components/Layout';
 import EducationCard from '@/components/EducationCard';
+import CertificationCard from '@/components/CertificationCard';
 import Pills from '@/components/Pills';
 import {
   IoDiceOutline,
@@ -22,6 +23,23 @@ export default function education() {
     },
   };
 
+  const certData = {
+    mlUdemy: {
+      title: 'Machine Learning, Data Science and Generative AI with Python',
+      date: '2024',
+      place: 'Udemy',
+      link: 'https://www.udemy.com/certificate/UC-55f31aab-b58c-4cbe-9ba0-d486145736de',
+      linkText: 'Blog',
+    },
+    ml2Udemy: {
+      title: 'Machine Learning A-Z: AI, Python & R + ChatGPT',
+      date: '2024',
+      place: 'Udemy',
+      link: 'https://www.udemy.com/certificate/UC-fcd40879-f39b-4c13-9ca4-9c58f4e07363/',
+      linkText: 'Blog',
+    },
+  };
+
   return (
     <>
       <Head>
@@ -39,6 +57,27 @@ export default function education() {
           />
         </div>
 
+        <h3 className="text-lg font-semibold mt-3">Certificate</h3>
+        <div className="flex flex-col gap-4">
+          <CertificationCard
+            title={certData.mlUdemy.title}
+            date={certData.mlUdemy.date}
+            place={certData.mlUdemy.place}
+            link={certData.mlUdemy.link}
+            linkText={certData.mlUdemy.linkText}
+          />
+        </div>
+
+        <div className="flex flex-col gap-4">
+          <CertificationCard
+            title={certData.ml2Udemy.title}
+            date={certData.ml2Udemy.date}
+            place={certData.ml2Udemy.place}
+            link={certData.ml2Udemy.link}
+            linkText={certData.ml2Udemy.linkText}
+          />
+        </div>
+
         <h3 className="text-lg font-semibold mt-6">Skills </h3>
         <div className="px-4">
           <div className="flex gap-2 items-center mt-6">
@@ -46,16 +85,16 @@ export default function education() {
             <h3 className="text-lg font-semibold ">Backend </h3>
           </div>
           <div className="flex flex-wrap gap-3 my-3 text-sm md:ml-8">
-            <Pills text="Golang" cname="bg-blue-100 py-1" />
+            <Pills text="Golang" cname="bg-gray-100 py-1" />
             <Pills text="Python" cname="bg-gray-100 py-1" />
-            <Pills text="Laravel" cname="bg-blue-100 py-1" />
-            <Pills text=".NET & C#" cname="bg-red-100 py-1" />
-            <Pills text="Node JS" cname="bg-yellow-100 py-1 " />
-            <Pills text="Yii" cname="bg-purple-100 py-1 " />
+            <Pills text="Laravel" cname="bg-gray-100 py-1" />
+            <Pills text=".NET & C#" cname="bg-gray-100 py-1" />
+            <Pills text="Node JS" cname="bg-gray-100 py-1 " />
+            <Pills text="Yii" cname="bg-gray-100 py-1 " />
             <Pills text="CI" cname="bg-gray-100 py-1 " />
 
-            <Pills text="Microservices" cname="bg-pink-100 py-1 " />
-            <Pills text="REST API" cname="bg-green-100 py-1 " />
+            <Pills text="Microservices" cname="bg-gray-100 py-1 " />
+            <Pills text="REST API" cname="bg-gray-100 py-1 " />
           </div>
 
           <div className="flex gap-2 items-center mt-6">
@@ -63,17 +102,17 @@ export default function education() {
             <h3 className="text-lg font-semibold ">Frontend & Mobile </h3>
           </div>
           <div className="flex flex-wrap gap-3 my-3 text-sm md:ml-8">
-            <Pills text="HTML" cname="bg-green-100 py-1 " />
-            <Pills text="Tailwind" cname="bg-blue-100 py-1" />
-            <Pills text="CSS/SCSS" cname="bg-purple-100 py-1" />
+            <Pills text="HTML" cname="bg-gray-100 py-1 " />
+            <Pills text="Tailwind" cname="bg-gray-100 py-1" />
+            <Pills text="CSS/SCSS" cname="bg-gray-100 py-1" />
 
-            <Pills text="Vue JS" cname="bg-indigo-100 py-1" />
-            <Pills text="NextJS" cname="bg-pink-100 py-1" />
-            <Pills text="React" cname="bg-yellow-100 py-1 " />
-            <Pills text="Dart" cname="bg-yellow-100 py-1 " />
-            <Pills text="Flutter" cname="bg-indigo-100 py-1 " />
+            <Pills text="Vue JS" cname="bg-gray-100 py-1" />
+            <Pills text="NextJS" cname="bg-gray-100 py-1" />
+            <Pills text="React" cname="bg-gray-100 py-1 " />
+            <Pills text="Dart" cname="bg-gray-100 py-1 " />
+            <Pills text="Flutter" cname="bg-gray-100 py-1 " />
             <Pills text="Bootstrap" cname="bg-gray-100 py-1 " />
-            <Pills text="Javascript & JQuery" cname="bg-indigo-100 py-1" />
+            <Pills text="Javascript & JQuery" cname="bg-gray-100 py-1" />
           </div>
 
 
@@ -82,19 +121,19 @@ export default function education() {
             <h3 className="text-lg font-semibold ">Tools & Database </h3>
           </div>
           <div className="flex flex-wrap gap-3 my-3 text-sm md:ml-8">
-            <Pills text="Github / Gitlab" cname="bg-red-100 py-1 " />
-            <Pills text="Docker" cname="bg-purple-100 py-1 " />
-            <Pills text="Linux Ubuntu/Debian/Rhell" cname="bg-pink-100 py-1 " />
+            <Pills text="Github / Gitlab" cname="bg-gray-100 py-1 " />
+            <Pills text="Docker" cname="bg-gray-100 py-1 " />
+            <Pills text="Linux Ubuntu/Debian/Rhell" cname="bg-gray-100 py-1 " />
             <Pills text="Sonar Qube" cname="bg-gray-100 py-1 " />
-            <Pills text="Jenkins" cname="bg-green-100 py-1 " />
-            <Pills text="GCP" cname="bg-pink-100 py-1 " />
-            <Pills text="Microsoft" cname="bg-yellow-100 py-1 " />
-            <Pills text="AWS" cname="bg-indigo-100 py-1 " />
-            <Pills text="Firebase" cname="bg-blue-100 py-1 " />
-            <Pills text="Azure Tools" cname="bg-red-100 py-1 " />
-            <Pills text="RDBMS" cname="bg-pink-100 py-1 " />
-            <Pills text="NoSQL" cname="bg-yellow-100 py-1 " />
-            <Pills text="SQL Server" cname="bg-green-100 py-1 " />
+            <Pills text="Jenkins" cname="bg-gray-100 py-1 " />
+            <Pills text="GCP" cname="bg-gray-100 py-1 " />
+            <Pills text="Microsoft" cname="bg-gray-100 py-1 " />
+            <Pills text="AWS" cname="bg-gray-100 py-1 " />
+            <Pills text="Firebase" cname="bg-gray-100 py-1 " />
+            <Pills text="Azure Tools" cname="bg-gray-100 py-1 " />
+            <Pills text="RDBMS" cname="bg-gray-100 py-1 " />
+            <Pills text="NoSQL" cname="bg-gray-100 py-1 " />
+            <Pills text="SQL Server" cname="bg-gray-100 py-1 " />
           </div>
 
           <div className="flex gap-2 items-center mt-6">
@@ -102,13 +141,13 @@ export default function education() {
             <h3 className="text-lg font-semibold ">Others </h3>
           </div>
           <div className="flex flex-wrap gap-3 my-3 text-sm md:ml-8">
-            <Pills text="Data Engineer*" cname="bg-blue-100 py-1 " />
-            <Pills text="Machine Learning*" cname="bg-red-100 py-1 " />
-            <Pills text="LLM & Generic AI*" cname="bg-pink-100 py-1 " />
+            <Pills text="Data Engineer*" cname="bg-gray-100 py-1 " />
+            <Pills text="Machine Learning*" cname="bg-gray-100 py-1 " />
+            <Pills text="LLM & Generic AI*" cname="bg-gray-100 py-1 " />
             <Pills text="Power BI" cname="bg-gray-100 py-1 " />
-            <Pills text="Tableau" cname="bg-yellow-100 py-1 " />
-            <Pills text="Ms Office" cname="bg-green-100 py-1 " />
-            <Pills text="Canva & Draw IO" cname="bg-red-100 py-1 " />
+            <Pills text="Tableau" cname="bg-gray-100 py-1 " />
+            <Pills text="Ms Office" cname="bg-gray-100 py-1 " />
+            <Pills text="Canva & Draw IO" cname="bg-gray-100 py-1 " />
           </div>
 
           <div className="flex gap-2 items-center mt-6">
@@ -116,12 +155,12 @@ export default function education() {
             <h3 className="text-lg font-semibold ">Personal </h3>
           </div>
           <div className="flex flex-wrap gap-3 my-3 text-sm md:ml-8">
-            <Pills text="Project Management" cname="bg-blue-100 py-1 " />
-            <Pills text="Technical Lead" cname="bg-pink-100 py-1 " />
-            <Pills text="Leadership" cname="bg-yellow-100 py-1 " />
-            <Pills text="Public Speaking" cname="bg-red-100 py-1 " />
-            <Pills text="Documentation" cname="bg-blue-100 py-1 " />
-            <Pills text="Team Work" cname="bg-green-100 py-1 " />
+            <Pills text="Project Management" cname="bg-gray-100 py-1 " />
+            <Pills text="Technical Lead" cname="bg-gray-100 py-1 " />
+            <Pills text="Leadership" cname="bg-gray-100 py-1 " />
+            <Pills text="Public Speaking" cname="bg-gray-100 py-1 " />
+            <Pills text="Documentation" cname="bg-gray-100 py-1 " />
+            <Pills text="Team Work" cname="bg-gray-100 py-1 " />
             <Pills text="Badminton" cname="bg-gray-100 py-1 " />
           </div>
         </div>

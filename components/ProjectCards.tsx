@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React from 'react';
+import React,{ useState } from 'react';
 import {
   IoEllipse,
   IoFileTrayOutline,
@@ -40,6 +40,17 @@ export default function ProjectCards(props) {
   } else {
     allStacksDisplay = <></>;
   }
+
+  const [showMore, setShowMore] = useState(false);
+  const MAX_LINES = 2;
+
+  const stories = props.story
+    .replace(/<br\s*\/?>/gi, '\n')
+    .split('\n');
+
+  const visibleLines = showMore ? stories : stories.slice(0, MAX_LINES);
+
+
   return (
     <>
       <div className="border-b-2 border-dashed h-auto p-4">
@@ -53,7 +64,7 @@ export default function ProjectCards(props) {
           {demoLink}
         </div>
         <div className="lg:ml-7">
-          <p className="lg:text-lg">{props.subTitle}</p>
+          <p className="lg:text-md">{props.subTitle}</p>
           <p className="mb-2 py-2">
             {props.desc
               .replace(/<br\s*\/?>/gi, '\n') // convert <br> tags to \n
@@ -64,6 +75,21 @@ export default function ProjectCards(props) {
                   <br />
                 </React.Fragment>
               ))}
+              
+            {visibleLines.map((line, index) => (
+              <React.Fragment key={index}>
+                {line}
+                <br />
+              </React.Fragment>
+            ))}
+            {stories.length > MAX_LINES && (
+              <span
+                className="text-blue-500 cursor-pointer"
+                onClick={() => setShowMore(!showMore)}
+              >
+                {showMore ? 'Show less' : 'Show more'}
+              </span>
+            )}
           </p>
           <div className="flex justify-start gap-2 flex-wrap">
             {allStacksDisplay}

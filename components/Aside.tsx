@@ -20,7 +20,7 @@ export default function Aside() {
     <>
       <aside className="bg-gray-50 lg:bg-white pb-4 lg:pb-0 top-0 w-full px-8 sm:px-12 md:px-16 lg:px-0 lg:w-3/12 h-full dark:bg-gray-800 dark:lg:bg-gray-900">
         <img
-          src="/assets/img/djarw1.jpeg"
+          src="/assets/img/profile-2.jpeg"
           alt=""
           className="h-48 md:h-56 lg:h-60 my-4 rounded-full"
         />
@@ -55,12 +55,6 @@ export default function Aside() {
             <div className="flex gap-x-2 items-center">
               <IoStorefrontOutline className="flex-none text-gray-500" /> @atomic
             </div>
-            <Link href="tel:+919912341234">
-              <div className="flex gap-x-2 items-center">
-                <IoPhonePortraitOutline className="flex-none text-gray-500" />{' '}
-                +6281 807 877 877
-              </div>
-            </Link>
           </div>
         </div>
         <div className="lg:hidden my-2">
@@ -80,9 +74,6 @@ export default function Aside() {
             </Link>
             <Link href="https://instagram.com/">
               <IoLogoInstagram />
-            </Link>
-            <Link href="https://telegram.me/">
-              <IoPaperPlane />
             </Link>
           </div>
         </div>
